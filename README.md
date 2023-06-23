@@ -15,6 +15,8 @@ Image of the live website
 
 ![Horiseon Webpage in action](<cfinn7789.github.io_Horiseon_ (2).png>)
 
-Link
-[My Github Page](file:///C:/Users/Chelsey/Documents/UCF/in_class/01-HTML-Git-CSS/02-Challenge/Develop/index.html)
+Links
+
+[My Github Page](https://github.com/cfinn7789/Horiseon)
+
 [Horiseon Website](https://cfinn7789.github.io/Horiseon/)
