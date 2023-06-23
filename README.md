@@ -11,8 +11,10 @@ Usage
 
 This project was created to be submitted as homework for the UCF coding bootcamp.
 
-Credits
-N/A
+Image of the live website
 
-License
-N/A
+![Alt text](image.png)
+
+Link
+[My Github Page](file:///C:/Users/Chelsey/Documents/UCF/in_class/01-HTML-Git-CSS/02-Challenge/Develop/index.html)
+[Horiseon Website](https://cfinn7789.github.io/Horiseon/)
