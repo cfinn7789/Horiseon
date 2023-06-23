@@ -7,53 +7,53 @@
 /*The body which contains the bulk of the code*/
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /*The body will be this color*/
 }
 
 a {
-    color: #ffffff;
+    color: #ffffff; /*The a tag will be white*/
     text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+    font-size: 16px; /*The font of the p tag will be 16px*/
 }
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /*The height of the element will be 800px*/
+    width: 100%; /*The width of the element will be 100% of the block it is contained in*/
+    margin-bottom: 25px; /*Sets the bottom of the margin to 25px*/
+    background-image: url("../images/digital-marketing-meeting.jpg"); /*Sets the background as an image for this element*/
+    background-size: cover; /*Specifies that the background image will cover the element*/
+    background-position: center; /*Places the background image in the center of the page*/
 }
-
+/*This makes it so the element floats to the left of its container*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*This makes it so the element floats to the right of its container*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*This creates space around the header element as well as changing the font depending on what the browser supports and changes both the background and text color*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*This displays h1 as an inline-block which means the container hugs the element insideand the font size is also changed*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*Changes the color of this specific part of the header*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*Adds CSS elements to the item within the nav part of the header*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -61,81 +61,81 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*Sets the marker for the element*/
 .header nav ul {
     list-style-type: none;
 }
-
+/*CHanges the display and margin*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Changes the width, display, and margin*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Changes the margin, padding, flow, float, width, height, font family, and background color*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
-    clear: both;
+    clear: both; /*Controls the flow next to the elements that are floating*/
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Changes the margin based on the bottom and color*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Changes the margin based on the bottom and color*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Changes the margin based on the bottom and color*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Changes the margin based on the bottom and how the text will appear on screen*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Changes the margin based on the bottom and how the text will appear on screen*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Changes the margin based on the bottom and how the text will appear on screen*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Changes the way the element is displayed as well as the margin and the mazimum width it can be*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Changes the way the element is displayed as well as the margin and the mazimum width it can be*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Changes the way the element is displayed as well as the margin and the mazimum width it can be*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*This element's margin, padding, height, font, and background+text color all change*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -144,7 +144,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*This element's margin, padding, height, font, and background+text color all change*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -153,7 +153,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*This element's margin, padding, height, font, and background+text color all change*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,41 +162,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Changes the max height of the image*/
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/*Changes the max height of the image*/
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/*Changes the max height of the image*/
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*Changes the format and font size*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Changes the format and font size*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Changes the format and font size*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Changes the padding, the flow, font, and text allignment*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*Changes the padding, the flow, font, and text allignment*/
 .footer h2 {
     font-size: 20px;
 }
